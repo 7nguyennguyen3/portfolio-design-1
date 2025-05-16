@@ -108,7 +108,7 @@ const Navbar: React.FC = () => {
               className="flex items-center px-3 py-3 rounded-md text-base font-medium text-slate-300 hover:bg-slate-700 hover:text-white transition-all duration-200 ease-in-out group"
             >
               {link.icon}
-              {link.label}
+              <span className="ml-3">{link.label}</span>
             </a>
           ))}
         </div>

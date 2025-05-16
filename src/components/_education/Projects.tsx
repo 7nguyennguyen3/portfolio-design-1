@@ -6,7 +6,7 @@ interface ProjectItemData {
   projectName: string;
   subtitle: string;
   purpose: string[];
-  techStack: string[];
+  skillsApplied: string[];
   projectUrl?: string;
 }
 
@@ -20,7 +20,7 @@ const projectsData: ProjectItemData[] = [
       "An AI-driven document intelligence platform enabling users to interact with PDFs conversationally, as if chatting with an expert on the document's content.",
       "It extracts key insights, summarizes reports, and answers contextual questions from PDFs, streamlining document analysis and information retrieval.",
     ],
-    techStack: [
+    skillsApplied: [
       "Next.js",
       "TypeScript",
       "TailwindCSS",
@@ -43,7 +43,7 @@ const projectsData: ProjectItemData[] = [
       "A custom-built e-commerce web application designed from scratch for selling skincare and perfume products online.",
       "It processes customer payments, features an integrated chatbot for support, and provides an admin dashboard for managing inventory, orders, and sales analytics.",
     ],
-    techStack: [
+    skillsApplied: [
       "Next.js",
       "PostgreSQL",
       "Prisma",
@@ -136,18 +136,18 @@ const Projects: React.FC = () => {
                   ))}
                 </ul>
 
-                {proj.techStack && proj.techStack.length > 0 && (
+                {proj.skillsApplied && proj.skillsApplied.length > 0 && (
                   <div>
                     <h4 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">
                       Skills Applied:
                     </h4>
                     <div className="flex flex-wrap gap-2">
-                      {proj.techStack.map((tech, idx) => (
+                      {proj.skillsApplied.map((skill, idx) => (
                         <span
                           key={idx}
                           className="px-2.5 py-1 text-xs font-medium text-gray-600 bg-gray-100 dark:text-gray-300 dark:bg-gray-700/60 rounded-full"
                         >
-                          {tech}
+                          {skill}
                         </span>
                       ))}
                     </div>

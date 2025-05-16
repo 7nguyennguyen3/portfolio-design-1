@@ -51,35 +51,22 @@ export const metadata: Metadata = {
     title: "Nguyen Nguyen | Portfolio - Full Stack Developer",
     description:
       "Explore the work of Nguyen Nguyen, a Full Stack Developer specializing in React, Next.js, AI, and more.",
-    // url: "https://nguyen.dev", // <-- REPLACE with your actual domain
+    url: "http://portfolio-design-1-tan.vercel.app",
     siteName: "Nguyen Nguyen Portfolio",
-    // images: [ // <-- UNCOMMENT AND REPLACE with your image URL
-    //   {
-    //     url: "https://yourdomain.com/og-image-nguyen.jpg", // Example: /og-image.png in your public folder
-    //     width: 1200,
-    //     height: 630,
-    //     alt: "Nguyen Nguyen - Full Stack Developer Portfolio",
-    //   },
-    // ],
     locale: "en_US",
     type: "website",
   },
   twitter: {
-    card: "summary_large_image", // Use "summary" if you don't have a large image
+    card: "summary_large_image",
     title: "Nguyen Nguyen | Portfolio - Full Stack Developer",
     description:
       "Discover projects by Nguyen Nguyen, skilled in React, Next.js, AI, Langgraph, Langchain, Python, and Typescript.",
-    // creator: "@YourTwitterHandle", // <-- REPLACE with your Twitter handle if you have one
-    // images: ["https://yourdomain.com/twitter-image-nguyen.jpg"], // <-- UNCOMMENT AND REPLACE with your image URL
   },
-  // metadataBase: new URL("https://nguyen.dev"), // <-- REPLACE with your actual domain if you uncomment lines with relative paths
-  // icons: { // <-- UNCOMMENT AND ADD your favicons to the public folder
-  //   icon: "/favicon.ico",
-  //   shortcut: "/favicon-16x16.png",
-  //   apple: "/apple-touch-icon.png",
-  // },
+  metadataBase: new URL("http://portfolio-design-1-tan.vercel.app"),
+  icons: {
+    icon: "/favicon.ico",
+  },
   robots: {
-    // Standard good practice
     index: true,
     follow: true,
     googleBot: {
