@@ -9,6 +9,7 @@ import {
   ChevronDown,
   ChevronUp,
   Link as LinkIcon,
+  NotebookPen,
 } from "lucide-react";
 import Link from "next/link";
 import React, { useState } from "react";

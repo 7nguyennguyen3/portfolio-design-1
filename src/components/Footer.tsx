@@ -52,15 +52,10 @@ const Footer: React.FC = () => {
         <div className="py-8 border-t border-gray-200 dark:border-gray-700">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between text-center md:text-left space-y-4 md:space-y-0">
             <div className="text-sm md:order-1">
-              &copy; {currentYear} {websiteOwnerName}. All Rights Reserved.
-              <br />
-              Template by Nguyen Nguyen, freely provided for use.
-            </div>
-            {/* <div className="text-sm md:order-1">
               &copy; {currentYear} {websiteOwnerName}.
               <br />
               All Rights Reserved
-            </div> */}
+            </div>
 
             {/* Right: Social Media Links (for the user's website) */}
             {footerSocialLinks.length > 0 && (

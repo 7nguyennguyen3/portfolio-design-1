@@ -13,6 +13,7 @@ import {
   ChevronRight,
   Image as ImageIcon,
   MapPin,
+  Trophy,
 } from "lucide-react";
 
 // --- Interfaces ---
@@ -54,7 +55,7 @@ const EXAMPLE_PORTFOLIO_ITEMS: PortfolioImage[] = [
     id: "item1",
     src: "/grand-canyon.jpg",
     alt: "A breathtaking view of the Grand Canyon's vast landscape at sunset.",
-    title: "Grand Canyon",
+
     description:
       "Visited the Grand Canyon, and the views were absolutely breathtaking. It was a lot of fun exploring.",
   },
@@ -62,7 +63,6 @@ const EXAMPLE_PORTFOLIO_ITEMS: PortfolioImage[] = [
     id: "item2",
     src: "/singapore.jpg",
     alt: "The modern skyline of Singapore featuring the iconic Marina Bay Sands.",
-    title: "Singapore",
     description:
       "Singapore was so clean and modern. The food at the hawker centers was a highlight, definitely a fun visit.",
   },
@@ -70,7 +70,6 @@ const EXAMPLE_PORTFOLIO_ITEMS: PortfolioImage[] = [
     id: "item3",
     src: "/bangkok.jpg",
     alt: "Ornate golden temples of Bangkok shining under a clear blue sky.",
-    title: "Bangkok",
     description:
       "Exploring Bangkok was an adventure. The temples were beautiful and the city had so much energy. Really enjoyed it!",
   },
@@ -78,7 +77,6 @@ const EXAMPLE_PORTFOLIO_ITEMS: PortfolioImage[] = [
     id: "item4",
     src: "/vietnam.jpg",
     alt: "Lush green rice paddies terraced along the hillsides of Vietnam.",
-    title: "Vietnam",
     description:
       "I visited Vietnam and the street food was incredible! Such a fun trip with amazing culture.",
   },
@@ -86,7 +84,6 @@ const EXAMPLE_PORTFOLIO_ITEMS: PortfolioImage[] = [
     id: "item5",
     src: "/tokyo.jpg",
     alt: "The iconic Shibuya Crossing in Tokyo bustling with pedestrians at night.",
-    title: "Tokyo",
     description:
       "Loved my visit to Tokyo! The mix of old and new is fascinating, and the sushi was out of this world. So much fun.",
   },

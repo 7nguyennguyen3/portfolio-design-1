@@ -9,7 +9,7 @@ import {
   FaLinkedinIn,
   FaGithub,
   FaYoutube,
-  FaFacebookF,
+  FaReddit,
 } from "react-icons/fa6";
 import React from "react";
 import { FaInstagram } from "react-icons/fa";
@@ -84,16 +84,10 @@ const HeroBanner = () => {
       ariaLabel: "Subscribe on YouTube",
     },
     {
-      name: "Instagram",
-      href: "https://instagram.com/yourprofile",
-      icon: <FaInstagram size={22} />,
-      ariaLabel: "Follow on Instagram",
-    },
-    {
-      name: "Facebook",
-      href: "https://facebook.com/yourprofile",
-      icon: <FaFacebookF size={22} />,
-      ariaLabel: "Connect on Facebook",
+      name: "Reddit",
+      href: "https://www.youtube.com/@NguyenNguyenFSD",
+      icon: <FaReddit size={22} />,
+      ariaLabel: "Subscribe on YouTube",
     },
   ];
 

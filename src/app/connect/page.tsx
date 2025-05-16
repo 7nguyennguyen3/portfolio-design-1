@@ -8,6 +8,7 @@ import {
   FaYoutube,
   FaInstagram,
   FaFacebookF,
+  FaReddit,
 } from "react-icons/fa6"; // Using fa6 for potentially newer icons, ensure this is installed
 import { Mail, Phone, Copy, CheckCircle, MessageCircle } from "lucide-react"; // Lucide for consistency
 

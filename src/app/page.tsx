@@ -11,8 +11,8 @@ const HomePage = () => {
       <HeroBanner />
       <Biography />
       <PortfolioCarousel />
-      <FeaturedExperience />
-      {/* <Skills /> */}
+      {/* <FeaturedExperience /> */}
+      <Skills />
       <ContactMe />
     </div>
   );
